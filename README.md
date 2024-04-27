@@ -4,9 +4,9 @@ Lights Out Game implemented using C++ and X11 GUI library
 ## Game Description
 
 <div align="center">
-<video width="400" height="500" controls>
-  <source src="https://youtube.com/shorts/fIjTR35wz2s" type="video/mp4">
-</video>
+  <video width="400" height="500" controls>
+    <source src="https://youtube.com/shorts/fIjTR35wz2s" type="video/mp4">
+  </video>
 </div>
 
 In the [Lights Out Game](https://en.wikipedia.org/wiki/Lights_Out_(game)), you start out by providing your desired Grid size (n), then a grid of n x n cells is generated with n random cells turned on. Clicking on a cell toggles it on and off, as well as its neighbours in a cross(+) pattern. The goal of the player is to clear the board in a certain amount of moves. 
