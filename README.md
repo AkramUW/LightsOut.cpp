@@ -25,3 +25,5 @@ The bigger n gets, the harder the game is and the more moves you get. A 2x2 grid
 ## Implementation
 
 The Lights out game makes use of the Observer Pattern. Each cell in the grid has a set of observers including not only its neighbouring cells but also the GraphicDisplay and the TextDisplay (which was used for testing). Each observer has one of two types: <code>All</code> meaning it's subscribed to all events, including when the cell is switched on during initialization, and <code>SwitchOnly</code> which is primarily for neighboring cells to be notified when their neighbour is toggled.
+
+As can be seen from the video, update speed is an obvious limiation to using X11.
