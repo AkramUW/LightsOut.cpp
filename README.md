@@ -20,7 +20,7 @@ The bigger n gets, the harder the game is and the more moves you get. A 2x2 grid
 
 [Windows](https://sourceforge.net/projects/xming/) or  [Mac/Linux](https://www.cyberciti.biz/faq/apple-osx-mountain-lion-mavericks-install-xquartz-server/)
  </li>
-<li> Download the executable <code>lightsout </code> from this git repo</li>
+<li> Download the executable <code>lightsout</code> from this git repo</li>
 <li>Make Sure the X11 server is running, run the executable from your terminal and start playing </li>
 </ol>
 
